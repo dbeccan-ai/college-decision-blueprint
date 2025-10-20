@@ -295,6 +295,7 @@
             }
         }
     </style>
+<base target="_blank">
 </head>
 <body>
     <div class="container">
@@ -310,7 +311,15 @@
             <p><strong>Please complete this form thoughtfully and submit it at least 48 hours before your scheduled consultation.</strong></p>
         </div>
         
-        <form id="collegeForm" class="form-content">
+        <!-- ****** FORM STARTS HERE ****** -->
+        <form id="collegeForm"
+              class="form-content"
+              action="https://formspree.io/f/xqayoady"
+              method="POST">
+
+            <!-- Hidden redirect (optional) -->
+            <input type="hidden" name="_redirect" value="https://dbeccan-ai.github.io/college-decision-blueprint/thankyou.html">
+
             <!-- SECTION 1: Student & Family Information -->
             <div class="section">
                 <h2 class="section-title">📋 Student & Family Information</h2>
@@ -797,31 +806,15 @@
                 </div>
             </div>
             
-            <!-- Submit Section -->
+            <!-- SUBMIT BUTTON -->
             <div class="submit-section">
                 <h3 style="color: #1e3c72; margin-bottom: 20px;">🚀 Ready for Your Strategy Call!</h3>
                 <p style="margin-bottom: 20px; color: #666;">Thank you for completing this questionnaire! Your responses will enable us to provide focused, personalized guidance that addresses your student's unique needs and aspirations.</p>
                 
-                <div class="instruction-box">
-                    <strong>How to Submit:</strong>
-                    <p>1. Click "Print/Save as PDF" below to save your completed form</p>
-                    <p>2. Email the PDF to: <a href="mailto:info@debslearningacademy.com">info@debslearningacademy.com</a></p>
-                    <p>3. Or take a screenshot and text to: <strong>347-364-1906</strong></p>
-                </div>
-                
-                <button type="button" class="submit-btn" onclick="window.print()">📄 Print / Save as PDF</button>
-                
-                <div style="margin-top: 25px; padding: 20px; background: white; border-radius: 8px; border: 2px dashed #ffd700;">
-                    <h4 style="color: #1e3c72; margin-bottom: 15px;">📅 Schedule Your Strategy Call</h4>
-                    <p style="margin-bottom: 10px;">
-                        <strong>Book Online:</strong> <a href="https://calendar.app.google/8G6Xvrj6Y2aCz5EJ7" target="_blank" style="color: #2a5298; font-weight: 600;">Click Here to Schedule</a>
-                    </p>
-                    <p>
-                        <strong>Call Us:</strong> <a href="tel:347-364-1906" style="color: #2a5298; font-weight: 600;">347-364-1906</a>
-                    </p>
-                </div>
+                <button type="submit" class="submit-btn">Submit</button>
             </div>
         </form>
+        <!-- ****** FORM ENDS HERE ****** -->
         
         <!-- Contact Info Footer -->
         <div class="contact-info">
@@ -829,7 +822,7 @@
             <p><strong>Location:</strong> North East Bronx | Virtual Options Available</p>
             <p><strong>Email:</strong> <a href="mailto:info@debslearningacademy.com">info@debslearningacademy.com</a></p>
             <p><strong>Phone:</strong> <a href="tel:347-364-1906">347-364-1906</a></p>
-            <p><strong>Website:</strong> <a href="http://www.debslearningacademy.com" target="_blank">www.debslearningacademy.com</a></p>
+            <p><strong>Website:</strong> <a href="http://www.debslearningacademy.com " target="_blank">www.debslearningacademy.com</a></p>
             <p style="margin-top: 20px; font-style: italic; color: #ffd700;">We look forward to partnering with you on this exciting journey toward college success!</p>
             <p style="margin-top: 10px;"><strong>— The D.E.Bs Learning Academy Team</strong></p>
         </div>
